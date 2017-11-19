@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>BiotoChina</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="./asset/css/app.css">
+    <link rel="stylesheet" href="./asset/css/font-awesome.min.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="./asset/img/favicon.ico">
+</head>
+
+<body class="">
+    <div id="app"></div>
+    <script type="text/javascript" src="./asset/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./asset/js/popper.min.js"></script>
+    <script type="text/javascript" src="./asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./asset/js/lodash.core.min.js"></script>
+
+    <!-- dev-build -->
+    <script src="/__build__/shared.js"></script>
+    <script src="/__build__/app.js"></script>
+    <!-- endbuild -->
+
+    <script type="text/javascript">
+    if (!window.console) {
+        window.console = {
+            log: $.noop
+        }
+    }
+
+
+
+    $(document).ready(function() {
+
+    });
+    </script>
+    <script type="text/javascript">
+    window.BUILD_TIME = '<%= htmlWebpackPlugin.options.buildtime %>'
+    </script>
+</body>
+
+</html>
